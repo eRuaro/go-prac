@@ -12,9 +12,12 @@ func main() {
 	//variables
 	var word string = saySomething("hey")
 	var hello string = "hello"
+	// short hand for var anotherWord string = "Another Word"
+	anotherWord := "Another Word"
 	fmt.Println(word)
 	fmt.Println(hello)
 	log.Println(word)
+	log.Println(anotherWord)
 }
 
 //functions
