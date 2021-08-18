@@ -1,17 +1,17 @@
 package main
 
-import(
+import (
 	"log"
 )
 
 type Person struct {
 	Name string
-	Age int
+	Age  int
 }
 
 func main() {
 	word := "Hey"
-	log.Println("Word is,", word)	
+	log.Println("Word is,", word)
 	saySomething(word)
 
 	neil := Person{
