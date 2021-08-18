@@ -4,7 +4,9 @@ import (
 	"log"
 )
 
+// Start with capital so that it would be "public"
 type Person struct {
+	// Capital for "public" viewing
 	Name string
 	Age  int
 }
@@ -19,9 +21,12 @@ func main() {
 		Age:  17,
 	}
 
+	log.Println(neil.Name)
+	log.Println(neil.Age)
 	log.Println(neil)
 }
 
+// visible to only this package
 func saySomething(word string) {
 	log.Println("Saying:", word)
 }
