@@ -18,9 +18,21 @@ func main() {
 	fmt.Println(hello)
 	log.Println(word)
 	log.Println(anotherWord)
+
+	log.Println(returnMult(5, 10))
+	log.Println(returnMult3(5, 10, "Hey"))
 }
 
 //functions
 func saySomething(s string) string {
 	return s
+}
+
+//returning multiple things
+func returnMult(a, b int) (int, int) {
+	return a, b
+}
+
+func returnMult3(a int, b int, c string) (int, int, string) {
+	return a, b, c
 }

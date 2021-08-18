@@ -6,5 +6,10 @@ import(
 
 func main() {
 	word := "Hey"
-	log.Println(word)	
+	log.Println("Word is,", word)	
+	saySomething(word)
+}
+
+func saySomething(word string) {
+	log.Println("Saying:", word)
 }
