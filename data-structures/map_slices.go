@@ -19,4 +19,9 @@ func main() {
 
 	log.Println(myArray)
 	log.Println(myArray[1])
+
+	// slices short hand
+	numbers := []int{5, 8}
+	numbers = append(numbers, 11)
+	log.Println(numbers)
 }
