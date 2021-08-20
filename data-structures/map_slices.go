@@ -24,7 +24,7 @@ func main() {
 	numbers := []int{5, 8}
 	numbers = append(numbers, 11)
 	log.Println(numbers)
-
+	log.Println(numbers[1])
 	// print first two numbers
 	log.Println(numbers[0:2]) // [numbers[0], numbers[2])
 }
